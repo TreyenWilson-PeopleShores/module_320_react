@@ -16,14 +16,22 @@ function EmployeeCard({ employee }) {
       </div>
       {/* Contact details */}
       <ul className="card__details">
-        <li className="card__row">
-          <span className="card__label">Phone</span>
+        <ol className="card__row">
+          <span className="card__label">Call Office</span>
           <span className="card__value">{employee.phone}</span>
-        </li>
-        <li className="card__row">
+        </ol>
+        <ol className="card__row">
+          <span className="card__label">Call Mobile</span>
+          <span className="card__value">{employee.phone}</span>
+        </ol>
+        <ol className="card__row">
+          <span className="card__label">SMS</span>
+          <span className="card__value">{employee.email}</span>
+        </ol>
+        <ol className="card__row">
           <span className="card__label">Email</span>
           <span className="card__value">{employee.email}</span>
-        </li>
+        </ol>
       </ul>
     </div>
   );

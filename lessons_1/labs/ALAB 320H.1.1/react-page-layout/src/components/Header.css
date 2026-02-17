@@ -1,0 +1,7 @@
+b {
+    border-radius: 5%;
+    background-color: rgb(253, 253, 253);
+    outline: 2px solid rgb(201, 200, 200);
+    margin: 5px;
+    padding: 5px;
+}
