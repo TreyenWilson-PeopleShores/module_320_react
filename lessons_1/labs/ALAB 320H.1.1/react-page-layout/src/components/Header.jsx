@@ -1,10 +1,10 @@
 import "./Header.css";
 
 
-function Header(title){
+function Header(props){
     return(
         <div className = "Header">
-            <b>{title.name}</b>
+            <b>{props.name}</b>
         </div>
     )
 }
