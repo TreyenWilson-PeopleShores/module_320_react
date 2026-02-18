@@ -17,7 +17,7 @@ function EmployeeCard({ employee }) {
         </div>
       </div>
       {/* Contact details */}
-      <ul className="card__details">
+      <p className="card__details">
         <ol className="card__row">
           <span className="card__label">Call Office</span>
           <span className="card__value">{employee.phone}</span>
@@ -34,7 +34,7 @@ function EmployeeCard({ employee }) {
           <span className="card__label">Email</span>
           <span className="card__value">{employee.email}</span>
         </ol>
-      </ul>
+      </p>
     </div>
   );
 }

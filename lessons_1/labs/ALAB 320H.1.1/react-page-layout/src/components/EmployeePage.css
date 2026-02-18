@@ -5,13 +5,18 @@ div {
 
 
 ol, .card{
+    
     border-radius: 2%;
     background-color: rgb(253, 253, 253);
     outline: 1px solid rgb(201, 200, 200);
     margin: 0px;
     padding: .5rem 0;
-    min-width: 280px;
+    min-width: 240px;
+    
    
+}
+ol{
+    padding: 10px;
 }
 
 .card__profile{
@@ -22,4 +27,16 @@ ol, .card{
 .card__photo{
     border-radius: 100px;
     padding: 10px;
+}
+
+.card__details{
+    text-align: left;
+}
+
+.card__label{
+    font-weight: bold;
+    display:flex
+}
+.card__value, .card__title{
+    color: rgb(120, 127, 128);
 }
