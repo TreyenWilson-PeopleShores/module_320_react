@@ -1,4 +1,4 @@
-import "./EmployeeCard.css";
+import "./EmployeePage.css";
 function EmployeeCard({ employee }) {
   return (
     <div className="card">

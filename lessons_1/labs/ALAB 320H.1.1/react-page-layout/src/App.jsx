@@ -1,4 +1,4 @@
-import EmployeeCard from "./components/EmployeeCard";
+import EmployeeCard from "./components/EmployeePage";
 import "./App.css";
 // Employee data — just a plain JavaScript object
 const employee = {
@@ -12,7 +12,7 @@ const employee = {
 function App() {
   return (
     <div className="app">
-      <h1>My First React Component</h1>
+      
       <EmployeeCard employee={employee} />
     </div>
   );

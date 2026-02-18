@@ -5,3 +5,10 @@ b {
     margin: 5px;
     padding: 5px;
 }
+ .Header{
+    width: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+ }
+ 
