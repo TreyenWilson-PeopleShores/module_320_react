@@ -4,11 +4,15 @@ b {
     margin: 5px;
     padding: 5px;
     width: 900px;
+    
 }
  .Header{
     width: 350px;
     display: flex;
     justify-content: right;
     margin: 10px;
+        outline: 1px solid rgb(201, 200, 200);
+
+    
  }
  
