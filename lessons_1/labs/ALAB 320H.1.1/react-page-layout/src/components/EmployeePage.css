@@ -14,5 +14,17 @@ ol, .card{
    
 }
 
+.card__profile{
+    display: flex;
+}
+.card__photo{
+    display:flex;
+
+    border-radius: 100px;
+    
+}
+.card__name{
+    
+}
 
 
