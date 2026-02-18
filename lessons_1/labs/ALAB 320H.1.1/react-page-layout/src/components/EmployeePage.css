@@ -1,6 +1,6 @@
 div {
     background-color: rgb(238, 235, 235);
-    padding:10px;
+    
 }
 
 
@@ -10,21 +10,16 @@ ol, .card{
     outline: 1px solid rgb(201, 200, 200);
     margin: 0px;
     padding: .5rem 0;
-    max-width: 250px;
+    min-width: 280px;
    
 }
 
 .card__profile{
     display: flex;
+    
+    
 }
 .card__photo{
-    display:flex;
-
     border-radius: 100px;
-    
+    padding: 10px;
 }
-.card__name{
-    
-}
-
-

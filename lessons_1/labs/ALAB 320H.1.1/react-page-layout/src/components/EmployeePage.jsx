@@ -4,18 +4,17 @@ function EmployeeCard({ employee }) {
     <div className="card">
       {/* Profile section */}
       <div className="card__profile">
-        <div className="personalInfo">
           <img
             className="card__photo"
             src={employee.picture}
             alt={employee.firstName + " " + employee.lastName}
           />
+        <div className="personalInfo"> 
+          <h2 className="card__name">
+            {employee.firstName} {employee.lastName}
+          </h2>
           <p className="card__title">{employee.title}</p>
         </div>
-        <h2 className="card__name">
-          {employee.firstName} {employee.lastName}
-        </h2>
-        
       </div>
       {/* Contact details */}
       <ul className="card__details">
