@@ -1,22 +1,27 @@
-div {
-    background-color: rgb(238, 235, 235);
-    
-}
 
 
 ol, .card{
     
     border-radius: 2%;
     background-color: rgb(253, 253, 253);
-    outline: 1px solid rgb(201, 200, 200);
     margin: 0px;
     padding: .5rem 0;
     min-width: 240px;
     
-   
+
 }
+   
+.div-container{
+    outline: 1px solid rgb(201, 200, 200);
+    
+}
+
+
 ol{
     padding: 10px;
+    outline: 1px solid rgb(201, 200, 200);
+   
+    
 }
 
 .card__profile{
@@ -27,6 +32,8 @@ ol{
 .card__photo{
     border-radius: 100px;
     padding: 10px;
+    width: 30%;
+    height: 30%;
 }
 
 .card__details{
@@ -40,3 +47,4 @@ ol{
 .card__value, .card__title{
     color: rgb(120, 127, 128);
 }
+
