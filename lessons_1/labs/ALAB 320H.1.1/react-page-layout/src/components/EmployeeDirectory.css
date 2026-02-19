@@ -10,12 +10,25 @@
 
 .main-div{
     display:grid;
-        outline: 1px solid rgb(201, 200, 200);
+    outline: 1px solid rgb(201, 200, 200);
 
 }
 
 .employee{
     display: flex;
     outline: 1px solid rgb(201, 200, 200);
-    justify-content: center;
+   
+}
+
+.card_profile{
+    display: flex;
+   
+}
+
+.card_photo{
+    
+    border-radius: 100px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
 }
