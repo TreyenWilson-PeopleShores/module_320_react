@@ -15,7 +15,7 @@ const employee = [{
   email: "jtaylor@fakeemail.com",
   picture: "https://randomuser.me/api/portraits/women/2.jpg",
 },,{
-  firstName: "Julie",
+  firstName: "Frank",
   lastName: "Taylor",
   title: "VP of Marketing",
   officePhone: "781-000-0002",
