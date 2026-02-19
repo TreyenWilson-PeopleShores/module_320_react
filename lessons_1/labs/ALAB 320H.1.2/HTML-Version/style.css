@@ -1,0 +1,18 @@
+html{
+    border-left: 5px;
+    border-color: lightgray;
+}
+
+body{
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
