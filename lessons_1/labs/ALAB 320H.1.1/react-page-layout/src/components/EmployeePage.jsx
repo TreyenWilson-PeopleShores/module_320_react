@@ -21,18 +21,22 @@ function EmployeeCard({ employee }) {
         <p className="card__details">
           <ol className="card__row">
             <span className="card__label">Call Office </span>
-            <span className="card__value">{employee.officePhone} <span className = "rightArrow">{">"}</span></span>
+            <span className = "rightArrow">{">"}</span>
+            <span className="card__value">{employee.officePhone} </span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Call Mobile</span>
+            <span className = "rightArrow">{">"}</span>
             <span className="card__value">{employee.phone}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">SMS</span>
+            <span className = "rightArrow">{">"}</span>
             <span className="card__value">{employee.phone}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Email</span>
+            <span className = "rightArrow">{">"}</span>
             <span className="card__value">{employee.email}</span>
           </ol>
         </p>
