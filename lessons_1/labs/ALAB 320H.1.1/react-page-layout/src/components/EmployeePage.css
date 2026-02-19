@@ -8,13 +8,14 @@ ol, .card{
     padding: .5rem 0;
     min-width: 240px;
     
+    
 
 }
    
 .div-container{
-    outline: 1px solid rgb(201, 200, 200);
     border-radius: 4px;
-    height: 427px;
+    height: 421px;
+    outline: 1px solid rgb(201, 200, 200);
     
 }
 
