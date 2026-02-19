@@ -32,3 +32,6 @@
     width: 70px;
     height: 70px;
 }
+.card__title{
+    text-align: left;;
+}

@@ -10,36 +10,36 @@ function EmployeeCard({ employee }) {
         <div className="card__profile">
             <img
               className="card__photo"
-              src={employee[0].picture}
-              alt={employee[0].firstName + " " + employee[0].lastName}
+              src={employee[1].picture}
+              alt={employee[1].firstName + " " + employee[1].lastName}
             />
           <div className="personalInfo"> 
             <h2 className="card__name">
-              {employee[0].firstName} {employee[0].lastName}
+              {employee[1].firstName} {employee[1].lastName}
             </h2>
-            <p className="card__title">{employee[0].title}</p>
+            <p className="card__title">{employee[1].title}</p>
           </div>
         </div>
         {/* Contact details */}
         <p className="card__details">
           <ol className="card__row">
             <span className="card__label">Call Office </span>
-            <span className="card__value">{employee[0].officePhone} </span>
+            <span className="card__value">{employee[1].officePhone} </span>
             <span className = "rightArrow">{">"}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Call Mobile</span>
-            <span className="card__value">{employee[0].phone}</span>
+            <span className="card__value">{employee[1].phone}</span>
             <span className = "rightArrow">{">"}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">SMS</span>
-            <span className="card__value">{employee[0].phone}</span>
+            <span className="card__value">{employee[1].phone}</span>
             <span className = "rightArrow">{">"}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Email</span>
-            <span className="card__value">{employee[0].email}</span>
+            <span className="card__value">{employee[1].email}</span>
             <span className = "rightArrow">{">"}</span>
           </ol>
         </p>
