@@ -1,8 +1,11 @@
 import "./EmployeePage.css";
+import Header from "./Header.jsx"
 function EmployeeCard({ employee }) {
   return (
     <div className = "div-container">
+      <Header name = "Employee" arrow = {true}/>
       <div className="card">
+        
         {/* Profile section */}
         <div className="card__profile">
             <img
@@ -36,8 +39,9 @@ function EmployeeCard({ employee }) {
           </ol>
           <ol className="card__row">
             <span className="card__label">Email</span>
-            <span className = "rightArrow">{">"}</span>
+            
             <span className="card__value">{employee.email}</span>
+            <span className = "rightArrow">{">"}</span>
           </ol>
         </p>
       </div>

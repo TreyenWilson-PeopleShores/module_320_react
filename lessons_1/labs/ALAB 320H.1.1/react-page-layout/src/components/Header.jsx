@@ -2,11 +2,14 @@ import "./Header.css";
 
 
 function Header(props){
+    if (props.arrow===true){
     return(
         <div className = "Header">
-            <b>{props.name}</b>
+            <span className="leftArrow">{"<"}</span> <b>{props.name}</b>
         </div>
     )
+    }
+
 }
 
 export default Header;

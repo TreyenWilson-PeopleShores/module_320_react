@@ -4,6 +4,9 @@ b {
     margin: 5px;
     padding: 5px;
     width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
  .Header{
@@ -15,3 +18,10 @@ b {
     
  }
  
+.leftArrow{
+    color: rgb(167, 167, 167);
+    display:flex;
+    justify-content: flex-start;
+
+    font-size: 40px;
+}
