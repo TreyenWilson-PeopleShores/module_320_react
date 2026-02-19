@@ -10,37 +10,36 @@ function EmployeeCard({ employee }) {
         <div className="card__profile">
             <img
               className="card__photo"
-              src={employee.picture}
-              alt={employee.firstName + " " + employee.lastName}
+              src={employee[0].picture}
+              alt={employee[0].firstName + " " + employee[0].lastName}
             />
           <div className="personalInfo"> 
             <h2 className="card__name">
-              {employee.firstName} {employee.lastName}
+              {employee[0].firstName} {employee[0].lastName}
             </h2>
-            <p className="card__title">{employee.title}</p>
+            <p className="card__title">{employee[0].title}</p>
           </div>
         </div>
         {/* Contact details */}
         <p className="card__details">
           <ol className="card__row">
             <span className="card__label">Call Office </span>
+            <span className="card__value">{employee[0].officePhone} </span>
             <span className = "rightArrow">{">"}</span>
-            <span className="card__value">{employee.officePhone} </span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Call Mobile</span>
+            <span className="card__value">{employee[0].phone}</span>
             <span className = "rightArrow">{">"}</span>
-            <span className="card__value">{employee.phone}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">SMS</span>
+            <span className="card__value">{employee[0].phone}</span>
             <span className = "rightArrow">{">"}</span>
-            <span className="card__value">{employee.phone}</span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Email</span>
-            
-            <span className="card__value">{employee.email}</span>
+            <span className="card__value">{employee[0].email}</span>
             <span className = "rightArrow">{">"}</span>
           </ol>
         </p>

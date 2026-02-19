@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <div className="employeeDirectory">
-        <EmployeeDirectory></EmployeeDirectory>
+        <EmployeeDirectory employee = {employee}/>
       </div>
       <div className="employeeCard">
         <EmployeeCard employee={employee} />
