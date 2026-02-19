@@ -7,9 +7,14 @@ import EmployeeDirectory from "./components/EmployeeDirectory";
 function App() {
   return (
     <div className="app">
+      <div className="employeeDirectory">
+        <EmployeeDirectory></EmployeeDirectory>
+      </div>
+      <div className="employeeCard">
+        <EmployeeCard employee={employee} />
+      </div>
       
-      <EmployeeCard employee={employee} />
-      <EmployeeDirectory></EmployeeDirectory>
+      
     </div>
   );
 }
