@@ -20,8 +20,8 @@ function EmployeeCard({ employee }) {
         {/* Contact details */}
         <p className="card__details">
           <ol className="card__row">
-            <span className="card__label">Call Office</span>
-            <span className="card__value">{employee.officePhone}</span>
+            <span className="card__label">Call Office </span>
+            <span className="card__value">{employee.officePhone} <span className = "rightArrow">{">"}</span></span>
           </ol>
           <ol className="card__row">
             <span className="card__label">Call Mobile</span>
