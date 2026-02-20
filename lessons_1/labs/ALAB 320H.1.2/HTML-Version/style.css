@@ -30,7 +30,7 @@ ul{
     justify-content: space-between;
 }
 
-header a{
+header a, time, article p{
     color: lightgray;
 }
 
@@ -45,4 +45,21 @@ footer a{
     display: flex;
     color: tomato;
     justify-content: end;;
+}
+
+article{
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article p::first-letter{
+    color:lightgray;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.copyright{
+    color: lightgray
 }
