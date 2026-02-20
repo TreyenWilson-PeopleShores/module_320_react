@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Learner from "./components/Learner"
+import Score from "./components/Score"
 
 function App() {
   const [learnerData, setLearnerData] = useState({
@@ -67,21 +69,21 @@ function App() {
 ]
 }) // initial data
   return (
-    <>
+    <div>
       
       {learnerData.learners.map((learner, index)=>  //Start of Loop
 
-      <span className="learner" key={index}>{console.log(learner)}
-      <h2>Name: {learner.name}</h2>
-      <p>Bio: {learner.bio} </p>
-      <ul>
-        <li>Date: {learner.scores.map((score, index)=>  
-          <span class="score" key={index}>{<ul><li>Date: {score.date}</li><li>Score: {score.score}</li></ul>}</span>)}
+      <span className="learner" key={index}>{}
+
+      <Learner name={learner.name} bio={learner.bio}/>
+      
+        <li>{learner.scores.map((score, index)=>  
+          <span class="score" key={index}>{<Score date={score.date} score={score.score}/>}</span>)}
         </li>
-      </ul>
+      
       </span>) /* End of loop */}
       
-    </>
+    </div>
   )
 }
 
