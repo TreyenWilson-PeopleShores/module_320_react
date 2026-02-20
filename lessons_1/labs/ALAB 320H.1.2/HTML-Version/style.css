@@ -16,3 +16,33 @@ header{
     padding-right: 2rem;
     padding-left: 2rem;
 }
+
+h1{
+    color: tomato;
+}
+img{
+    width:100%
+}
+ul{
+    display: flex;
+    padding:0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+header a{
+    color: lightgray;
+}
+
+footer a{
+    color: tomato;
+}
+
+.title{
+    font-size: larger;
+}
+.continue{
+    display: flex;
+    color: tomato;
+    justify-content: end;;
+}
