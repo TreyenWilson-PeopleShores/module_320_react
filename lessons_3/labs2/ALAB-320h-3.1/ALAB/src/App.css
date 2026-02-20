@@ -1,0 +1,15 @@
+h2{
+  text-align: center;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 3px;
+}
+
+.result{
+  font-weight: 900 ;
+}
+
+.container{
+  border: 1px solid rgb(182, 182, 182);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}

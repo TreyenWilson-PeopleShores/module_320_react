@@ -77,9 +77,9 @@ function App() {
 
       <Learner name={learner.name} bio={learner.bio}/>
       
-        <li>{learner.scores.map((score, index)=>  
-          <span class="score" key={index}>{<Score date={score.date} score={score.score}/>}</span>)}
-        </li>
+        {learner.scores.map((score, index)=>  
+          <span className="score" key={index}>{<Score date={score.date} score={score.score}/>}</span>)}
+        
       
       </span>) /* End of loop */}
       
