@@ -1,0 +1,18 @@
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+}
+
+
+
+header a{
+    color: lightgray;
+
+}
+
+h1{
+    color: tomato;
+}
