@@ -1,5 +1,4 @@
-I have created two folders. One contains the HTML page, the other contains the REACT page.
 
-# [Netlify Live Link](Netlify link here)
-# [GitHub Pages Live Link](GitHub Pages link of HTML version)
-# [GitHub Link of HTML Version](GitHub link for HTML version)
+# [Netlify Live Link]: https://spontaneous-kringle-4da4f4.netlify.app/
+# [GitHub Pages Live Link] in the folder React-Version
+# [GitHub Link of HTML Version] In the folder HTML-Version
