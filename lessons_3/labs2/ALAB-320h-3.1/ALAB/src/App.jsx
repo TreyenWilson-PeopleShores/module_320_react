@@ -68,9 +68,23 @@ function App() {
 }) // initial data
   return (
     <>
-      <div>{learnerData.learners[0].name}</div>
+      
+      {learnerData.learners.map((learner, index)=>  //Start of Loop
+
+      <span className="learner" key={index}>{console.log(learner)}
+      <h2>Name: {learner.name}</h2>
+      <p>Bio: {learner.bio} </p>
+      <ul>
+        <li>Date: {learner.scores.map((score, index)=>  
+          <span class="score" key={index}>{<ul><li>Date: {score.date}</li><li>Score: {score.score}</li></ul>}</span>)}
+        </li>
+      </ul>
+      </span>) /* End of loop */}
+      
     </>
   )
 }
+
+
 
 export default App
